@@ -8,4 +8,4 @@ Reviewify is a full-stack, database-driven website powered by the Spotify API. I
 
 Technologies Used
 
-Express and Node JS were used to create the back end application that queries the Spotify Web API and interacts with the Reviewify database. React was used as the front end library, populating the pages' states' from the response given from the back end. CSS was used to ensure the site would be responsive for devices of different screen sizes. In the near future, the app will be deployed and used as a showcase for prospective employers.
+Express and Node JS were used to create the back end application that queries the Spotify Web API and interacts with the Reviewify database. React was used as the front end library, populating the pages' states' from the response given from the back end. CSS was used to ensure the site would be responsive for devices of different screen sizes.
