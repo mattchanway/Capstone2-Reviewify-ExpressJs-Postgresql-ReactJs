@@ -1,6 +1,6 @@
 Reviewify - Capstone 2 Project
 
-This is Reviewify, my capstone 2 for Springboard Software Engineering Career Track. At the moment, there are some issues deploying the app, so I made a video walkthrough of the website, viewable here: https://youtu.be/xadJ8vCGuK0
+This is Reviewify, my capstone 2 for Springboard Software Engineering Career Track. The site is deployed at http://5.161.134.120:3000/, and a video demonstration of the site's functionality can be viewed at https://youtu.be/DLvOI3dL-fs. Note, since the site requires authentication via the Spotify Web API, you must have a Spotify account to login to Reviewify.
 
 Overview
 
