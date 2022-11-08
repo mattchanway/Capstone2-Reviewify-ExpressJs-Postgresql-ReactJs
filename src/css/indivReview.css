@@ -1,0 +1,148 @@
+.review-container{
+    
+    width: 60%;
+    margin: auto;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 1px 10px -14px 14px #FFF;
+
+    
+
+}
+
+.page-container{
+  
+    background-color: rgb(211, 255, 211);
+    
+    
+}
+
+
+.comments-parent-container{
+    background-color: rgb(0, 0, 58);
+}
+
+.stars-div{
+    color: goldenrod;
+}
+
+.comments-heading{
+    color: white;
+}
+
+.review-album-cover-wrapper{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-album-img{
+    max-width: 100%;
+}
+
+.comments{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    white-space: normal;
+    overflow: hidden;
+    text-align: left;
+    
+}
+
+.comment-username{
+    font-weight: bold;
+    color: #1DB954;
+    float: left;
+}
+
+.indiv-comment-div{
+    margin: 4px;
+}
+
+.actual-comment-span{
+    margin-left: 5px;
+}
+
+.edit-review-form-button{
+    font-family: GothamLight;
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 11px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: GothamLight;
+  border-radius: 14px;
+  margin-left: 2px;
+  margin-right:2px;
+}
+
+.edit-review-form-button:hover{
+   cursor: pointer;
+   background-color: gold;
+}
+
+.add-comment-button{
+    font-family: GothamLight;
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: GothamLight;
+  border-radius: 14px;
+  margin-left: 2px;
+  margin-right:2px;
+}
+
+.add-comment-button:hover{
+   cursor: pointer;
+   background-color: gold;
+}
+
+.delete-comment-button{
+    font-family: GothamLight;
+    background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: GothamLight;
+  border-radius: 14px;
+  margin-left: 2px;
+  margin-right:2px;
+}
+
+.delete-comment-button:hover{
+   cursor: pointer;
+   
+}
+
+@media (max-width: 868px){
+
+    .review-container{width: 95%;
+    margin: auto;}
+
+}
+
+@media(min-width: 1500px){
+
+    .review-container{width: 50%;
+        margin: auto;}
+
+}

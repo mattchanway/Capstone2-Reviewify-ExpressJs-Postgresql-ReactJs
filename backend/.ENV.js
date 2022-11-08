@@ -1,0 +1,4 @@
+const CLIENT_ID = '53ca0767b1094ac688996ae59682e82b';
+const CLIENT_SECRET = '6946e45af0da4d03bf26de3faf426ac6';
+
+module.exports = { CLIENT_ID, CLIENT_SECRET }

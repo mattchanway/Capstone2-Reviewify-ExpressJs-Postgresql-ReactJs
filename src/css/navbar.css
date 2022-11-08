@@ -1,0 +1,151 @@
+.nav-flex {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 15%;
+  /* background-color: lightblue; */
+  /* background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(204,183,132,1) 94%); */
+  /* background: rgb(2,20,7);
+  background: linear-gradient(90deg, rgba(2,20,7,1) 28%, rgba(29,185,84,1) 94%); */
+  background-color: rgb(0, 0, 58);
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+
+}
+
+.nav-container {
+  background-color: rgb(0, 0, 58);
+}
+
+
+
+.logo-div {
+  height: 40px;
+  width: 140px;
+  ;
+  float: left;
+  margin-left: 30px;
+  margin-top: 24px;
+
+}
+
+.spotify-logo {
+
+  max-height: 100%;
+  max-width: 100%;
+
+
+}
+
+.link-btn {
+  background-color: #1DB954;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 16px;
+}
+
+.link-btn:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+
+.link {
+  text-decoration: none;
+  font-family: gothamBlack;
+  font-size: large;
+  color: white;
+}
+
+.link:hover {
+  /* font-size: x-large; */
+  text-decoration: underline;
+  /* color: blue */
+
+
+}
+
+@media (max-width: 768px) {
+  /* .nav-container {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 0%;
+        padding-right: 0%;
+        
+    display: flex;
+    justify-content: center;
+    
+      } */
+
+  .logo-div {
+    height: 32px;
+    width: 80px;
+    ;
+    float: left;
+    margin-left: 1px;
+    margin-top: 10px;
+  }
+
+
+
+  .link {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-small;
+
+  }
+
+  .link:hover {
+    text-decoration: underline;
+    background-color: gold;
+
+
+  }
+
+  .link-btn {
+    background-color: #1DB954;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    border-radius: 8px;
+  }
+
+}
+
+@media (max-width: 468px) {
+  .logo-div {
+    display: none;
+    /* height: 100px;
+    width: 40px;
+    ;
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px; */
+  }
+
+  .nav-flex {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* background-color: lightblue; */
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(204,183,132,1) 94%); */
+    /* background: rgb(2,20,7);
+    background: linear-gradient(90deg, rgba(2,20,7,1) 28%, rgba(29,185,84,1) 94%); */
+    background-color: rgb(0, 0, 58);
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+  }
+
+}

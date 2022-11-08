@@ -1,0 +1,46 @@
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 80%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: GothamLight;
+  }
+:placeholder-shown, label{
+    font-family: GothamLight;
+}
+
+.add-review-form-button{
+    font-family: GothamLight;
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: GothamLight;
+  border-radius: 14px;
+}
+
+.add-review-form-button:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+}
+
+.add-review-form-container{
+    margin-bottom: 30px;
+}
+.star-range-icon:hover{
+    cursor: pointer;
+
+}
+

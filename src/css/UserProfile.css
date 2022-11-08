@@ -1,0 +1,66 @@
+/* USER PROFILE */
+
+.user-profile-heading-avatar-bio{
+  width: 300px;
+}
+
+.user-profile-details{
+    margin-left: 5%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .star-span{
+    color:goldenrod;
+    
+  }
+
+  .footnote{
+    font-size: x-small;
+  }
+
+  .avatar-wrapper{
+    max-width: 90vw;
+    width: 200px;
+    height: 200px;
+    /* height: 400px; */
+  }
+
+  .avatar-img{
+    max-width: 100%;
+    border-radius: 100px;
+    
+  }
+  
+  .increment-star{
+    font-size: larger;
+    
+    text-decoration: underline;
+  }
+  
+  .increment-star:hover{
+    color:goldenrod;
+    cursor: pointer;
+  }
+  
+  .user-profile-container{
+    background:  rgba(255, 255, 255, 0.3);
+  }
+  
+  
+  .alphabet-nav-span{
+    font-family: GothamMedium;
+    color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .alphabet-nav-span:hover{
+    cursor: pointer;
+  }
+
+  /* .bio-avatar-form{
+    
+  } */
