@@ -181,7 +181,7 @@ class ReviewManager {
             if (result === 401) {
                 let newTokenCall = await UserManager.checkForAndActivateRefreshToken(sessionId);
                 if (!newTokenCall) return ({ noRefreshToken: 'No refresh token available.' });
-                let newResult = await UserManager.getSpotifyApiResult(`artists/${artist_id}`, newTokenCall.token.spotify_access_token)
+                let newResult = await SpotifyClientService.getSpotifyApiResult(`artists/${artist_id}`, sessionId, newTokenCall.token.spotify_access_token)
                 return newResult;
             }
             return result;
